@@ -1,0 +1,19 @@
+{
+  "name": "twiz-server-oauth",
+  "version": "1.0.0",
+  "description": "Inserts missing oauth values - calculates oauth signature.",
+  "main": "src/OAuth.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gits2501",
+  "license": "MIT",
+  "dependencies": {
+    "hmac_sha1": "file:../../../node/hmac_sha1",
+    "twiz-client-utils": "file:../../../testing/TwizClientWithBroserify/dependencies/twiz-client-utils",
+    "twiz-server-options": "file:../twiz-server-options"
+  }
+}
